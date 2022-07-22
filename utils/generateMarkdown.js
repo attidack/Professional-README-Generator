@@ -55,7 +55,7 @@ function generateMarkdown(data) {
   - [Questions](#Questions)
 
   ## Installation
-  ${data.installation}
+  ${data.install}
 
   ## Usage
   ${data.useage}
@@ -73,7 +73,7 @@ function generateMarkdown(data) {
 
  
   ## Questions
-  You can reach me on with my [github profile](https://github.com/${data.github})
+  You can reach me with my [github profile](https://github.com/${data.github})
    or reach me by [Email](${data.email})
 
 
