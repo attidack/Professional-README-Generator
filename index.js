@@ -1,7 +1,9 @@
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
 const fs = require('fs');
-// TODO: Create an array of questions for user input
+
+
+// an array of questions for user input
 const questions = [
       {
         type: 'input',
@@ -147,7 +149,7 @@ const questions = [
         when: ({ confirmLicense }) => confirmLicense
     }
 ];
-// TODO: Create a function to write README file
+//  a function to write README file
 const writeFile = fileContent => {
     return new Promise((resolve, reject) => {
       fs.writeFile('./dist/README.md', fileContent, err => {

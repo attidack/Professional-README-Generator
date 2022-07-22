@@ -44,11 +44,11 @@ function generateMarkdown(data) {
   ![Screenshot](/assets/imgs/screenshot.png)
 
   ## Table of Contents
-  - [Installation](#Installation)
-  - [Usage](#Usage)${renderLicenseLink(data)}
-  - [Contributing](#Contributing)
-  - [Tests](#Tests)
-  - [Questions](#Questions)
+  - [Installation](#installation)
+  - [Usage](#usage) ${renderLicenseLink(data)}
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
   ## Installation
   ${data.install}

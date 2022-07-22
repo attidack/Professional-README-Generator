@@ -14,12 +14,12 @@
   ![Screenshot](/assets/imgs/screenshot.png)
 
   ## Table of Contents
-  - [Installation](#Installation)
-  - [Usage](#Usage)
+  - [Installation](#installation)
+  - [Usage](#usage)
   - [License](#license)
-  - [Contributing](#Contributing)
-  - [Tests](#Tests)
-  - [Questions](#Questions)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
   ## Installation
   Just run: npm install, node index
