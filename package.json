@@ -1,14 +1,30 @@
 {
-  "name": "static-site",
+  "name": "readme-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "readme generator for github",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Jon Bird",
+  "license": "MIT",
   "dependencies": {
     "inquirer": "^6.3.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/attidack/Professional-README-Generator.git"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "markdown",
+    "github",
+    "readme",
+    "generator"
+  ],
+  "bugs": {
+    "url": "https://github.com/attidack/Professional-README-Generator/issues"
+  },
+  "homepage": "https://github.com/attidack/Professional-README-Generator#readme"
 }
