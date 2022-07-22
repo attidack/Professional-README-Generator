@@ -1,4 +1,3 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(data) {
   if (!data.license) {
@@ -9,19 +8,15 @@ function renderLicenseBadge(data) {
   `;
 }
 
-
-// TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(data) {
   if (!data.license) {
     return ''
   }
   return `
-  - [License](#license)
-  `;
+  - [License](#license)`;
 }
 
-// TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(data) {
   if (!data.license) {
@@ -29,12 +24,11 @@ function renderLicenseSection(data) {
   }
   return `
   ## License
-
-  ${data.license}
-  `;
+   ${data.license}
+   `;
 }
 
-// TODO: Create a function to generate markdown for README
+
 function generateMarkdown(data) {
   return `
   # ${data.title}
@@ -48,8 +42,7 @@ function generateMarkdown(data) {
 
   ## Table of Contents
   - [Installation](#Installation)
-  - [Usage](#Usage)
-  ${renderLicenseLink(data)}
+  - [Usage](#Usage)${renderLicenseLink(data)}
   - [Contributing](#Contributing)
   - [Tests](#Tests)
   - [Questions](#Questions)
@@ -59,22 +52,16 @@ function generateMarkdown(data) {
 
   ## Usage
   ${data.useage}
-
- 
   ${renderLicenseSection(data)}
-
- 
   ## Contributing
   ${data.contributing}
 
- 
   ## Tests
   ${data.tests}
 
- 
   ## Questions
   You can reach me with my [github profile](https://github.com/${data.github})
-   or reach me by [Email](${data.email})
+   or reach me by [Email](mailto:${data.email})
 
 
 `;

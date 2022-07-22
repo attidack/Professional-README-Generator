@@ -134,11 +134,18 @@ const questions = [
         }
       },
       {
+        type: 'confirm',
+        name: 'confirmLicense',
+        message: 'Would you like to enter some information about the License for a "License" section?',
+        default: true
+      },
+      {
         type: 'list',
         name: 'license',
         message: 'What license do you have selected for this project? (Check all that apply)',
-        choices: ['MIT License', 'Apache License v3.0', 'GNU General Public License v3.0', 'BSD-2-Clause', 'BSD-3-Clause', 'Boost Software License', 'Creative Commons Zero v1.0 Universeal', 'Eclipse Public License v2.0', 'GNU affero General Public License v3.0', 'GNU general Public license v2.0', 'GNU Lesser General Public License v2.1']
-      }
+        choices: ['MIT License', 'Apache License v3.0', 'GNU General Public License v3.0', 'BSD-2-Clause', 'BSD-3-Clause', 'Boost Software License', 'Creative Commons Zero v1.0 Universeal', 'Eclipse Public License v2.0', 'GNU affero General Public License v3.0', 'GNU general Public license v2.0', 'GNU Lesser General Public License v2.1'],
+        when: ({ confirmLicense }) => confirmLicense
+    }
 ];
 // TODO: Create a function to write README file
 const writeFile = fileContent => {
