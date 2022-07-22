@@ -40,6 +40,9 @@ function generateMarkdown(data) {
   ## Live Link
   ${data.link}
 
+  ## Screenshot
+  ![Screenshot](/assets/imgs/screenshot.png)
+
   ## Table of Contents
   - [Installation](#Installation)
   - [Usage](#Usage)${renderLicenseLink(data)}
