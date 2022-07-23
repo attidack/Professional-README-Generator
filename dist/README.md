@@ -1,43 +1,43 @@
 
-  # test
+  # Professional-README-Generator
   
-  ![LicenseBadge](https://img.shields.io/github/license/attidack/test)
+  ![LicenseBadge](https://img.shields.io/github/license/attidack/Professional-README-Generator)
   
 
   ## Description
-  this is the project that writes stuff
+  Test
 
   ## Live Link
-  google.com
+  http://google.com
 
   ## Screenshot
   ![Screenshot](/assets/imgs/screenshot.png)
 
   ## Table of Contents
-  - [Installation](#Installation)
-  - [Usage](#Usage)
+  - [Installation](#installation)
+  - [Usage](#usage) 
   - [License](#license)
-  - [Contributing](#Contributing)
-  - [Tests](#Tests)
-  - [Questions](#Questions)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
   ## Installation
-  npm i, followed by node index.js
+  npm install
 
   ## Usage
-  anyone can use the code from this project
+  anyone can use this stuff
   
   ## License
    MIT License
    
   ## Contributing
-  no new contributors needed
+  not needing additional contributions at this time
 
   ## Tests
-  none
+  no test info to give
 
   ## Questions
   You can reach me with my [github profile](https://github.com/attidack)
-   or reach me by [Email](mailto:test@test.com)
+   or reach me by [Email](mailto:attidack@gmail.com)
 
 

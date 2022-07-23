@@ -10,8 +10,11 @@
   ## Live Link
   https://github.com/attidack/Professional-README-Generator
 
-   ## Screenshot
+  ## Screenshot
   ![Screenshot](/assets/imgs/screenshot.png)
+
+  ## Video Walkthrough
+  https://drive.google.com/file/d/1QOqeqM33BLxjuU4zEAu4_7hlpl_PBd5B/view
 
   ## Table of Contents
   - [Installation](#installation)
